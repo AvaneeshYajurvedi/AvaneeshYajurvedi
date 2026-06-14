@@ -150,6 +150,9 @@ profile = {
 
 <img src="https://streak-stats.demolab.com?user=AvaneeshYajurvedi&theme=tokyonight&hide_border=true&background=0D1117&stroke=00B4D8&ring=00B4D8&fire=FF6B6B&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E" height="160"/>
 
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AvaneeshYajurvedi&bg_color=0D1117&color=00B4D8&line=00B4D8&point=FFFFFF&area=true&hide_border=true" width="95%"/>
+
 </div>
 
 ---
