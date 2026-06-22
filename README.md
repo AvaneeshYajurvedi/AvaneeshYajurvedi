@@ -113,34 +113,6 @@ profile = {
 
 ---
 
-## Journey
-
-```
-2023  ──  Started structured security learning; Linux & networking foundations
-          │
-2024  ──  Google Cybersecurity Certificate
-          │  First CTF participation
-          │  TryHackMe — 32+ challenges across web, network, crypto, OSINT
-          │  OverTheWire wargames
-          │
-2025  ──  Enrolled B.Tech @ Dr. D.Y. Patil Dnyan Prasad Global University
-          │  VP — Kryptonex (College Tech & Innovation Club)
-          │  Represented college externally at National Level CTF 
-          │  Built & deployed ExamMode in production
-          │  Started responsible disclosure & bug bounty work
-          │  Built WiFi Network Monitor
-          │  Began structured writeup publishing
-          │
-2026  ──  Deepening PortSwigger Academy — all major vulnerability classes
-(now)     │  Active bug bounty (public programs → private)
-          │  Building research-grade writeup portfolio
-          │
-→ 2027+   Interested in security research, vulnerability discovery,
-	  and open-source security projects.
-```
-
----
-
 ## GitHub Stats
 
 <div align="center">
