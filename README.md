@@ -1,13 +1,19 @@
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Avaneesh+Yajurvedi;Cybersecurity+Student+%7C+Bug+Bounty+Hunter;CTF+Player+%7C+Vulnerability+Researcher;Building+toward+offensive+security+research" alt="Typing SVG" /></a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00B4D8&height=180&section=header&text=Avaneesh%20Yajurvedi&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Game%20Developer%20%7C%20Unreal%20Engine%20%2B%20Unity&descAlignY=55&descSize=18" width="100%"/>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=00B4D8&center=true&vCenter=true&width=600&lines=Building+Playable+Worlds;Puzzle+%26+Level+Design;Unreal+Engine+5+%7C+C%2B%2B;Unity+%7C+C%23;Shipping+on+itch.io" alt="Typing SVG" /></a>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avaneesh-yajurvedi-99bb77377)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/aviiy1710)
+[![itch.io](https://img.shields.io/badge/itch.io-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white)](https://avaneeshyajurvedi.itch.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=flat-square&logo=github&logoColor=white)](https://github.com/AvaneeshYajurvedi)
 ![Visitor Count](https://komarev.com/ghpvc/?username=AvaneeshYajurvedi&style=flat-square&color=00B4D8&label=profile+views)
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/AvaneeshYajurvedi/AvaneeshYajurvedi/output/github-contribution-grid-snake.svg" width="100%"/>
 
 </div>
 
@@ -15,11 +21,9 @@
 
 ## About
 
-I'm a first-year engineering student focused on offensive security — specifically vulnerability research, web application exploitation, and network security. My work sits at the intersection of hands-on attack technique development and structured research methodology.
+I'm an engineering student focused on game development, working across Unreal Engine (C++) and Unity (C#). My interest is in systems that feel good to control — movement, physics, and interaction — and in understanding *why* a mechanic feels right before polishing it.
 
-I approach security from first principles: understand the underlying system deeply before attempting to break it. My interest is less in tooling and more in understanding *why* vulnerabilities exist architecturally — and documenting that reasoning in reproducible writeups.
-
-I'm currently building toward independent vulnerability research, responsible disclosure, and collaborative security research opportunities. Everything I do now is oriented around developing strong technical foundations and contributing to meaningful security work.
+Right now I'm building toward becoming a professional game developer, with 3D asset work in Blender alongside the programming side. Everything I'm doing is aimed at strong technical foundations first, and eventually a studio of my own.
 
 ---
 
@@ -27,74 +31,57 @@ I'm currently building toward independent vulnerability research, responsible di
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  Primary       →  Web application security (PortSwigger Academy) │
-│  Secondary     →  Network protocol analysis & enumeration        │
-│  Research      →  Responsible disclosure & bug bounty hunting    │
-│  CTF           →  Web exploitation, OSINT, crypto challenges     │
-│  Long-term     →  Offensive security research / eJPT → OSCP     │
+│  Primary       →  Puzzle / clue-driven level design               │
+│  Tools         →  Unreal Engine 5, Unity, Blender                 │
+│  Shipping      →  itch.io releases                                │
+│  Long-term     →  Professional game developer → studio founder    │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Security Projects
+## Projects
 
 <details>
-<summary><strong>WiFi Network Monitor</strong></summary>
+<summary><strong>Warehouse Puzzle Game</strong> — Unreal Engine, Blueprints</summary>
 <br>
 
-A Python-based network monitoring and traffic analysis tool for passive WiFi reconnaissance. Built to develop hands-on understanding of wireless protocols and packet inspection at the layer 2/3 boundary.
+A clue-driven puzzle game: the player spawns in a warehouse, follows clues to a target location, and answers a question found there. Three correct answers combine into a final passphrase that unlocks the win state, with an elapsed-time timer running throughout.
 
-**Scope:** Passive traffic capture, device enumeration, protocol-level inspection  
-**Stack:** Python, Scapy, Linux networking primitives  
-**Repo:** [`WiFi-Network-Monitor`](https://github.com/AvaneeshYajurvedi)
+**Features:** Clue/question/answer chain, passphrase system, win-condition trigger, timer  
+**Stack:** Unreal Engine, Blueprints
 
 </details>
 
 <details>
-<summary><strong>ExamMode — Secure Proctored Exam Environment</strong></summary>
+<summary><strong>2D Platformer</strong> — Unreal Engine 5, Paper2D</summary>
 <br>
 
-A locked-down examination environment designed to prevent unauthorized resource access during assessments. Deployed and actively used in a real college setting — not a demo project.
+A complete 2D platformer covering collision, character movement, UI, and audio (jump, background music, win/die states), published to itch.io.
 
-The engineering problem here is meaningful: designing a client-side restriction system that's genuinely difficult to bypass without privileged access, while remaining operationally practical for non-technical exam administrators.
+**Stack:** Unreal Engine 5, Paper2D, Blueprints
 
-**Scope:** Process isolation, UI lockdown, session control, deployment at institutional scale  
-**Stack:** Electron, system-level OS APIs  
-**Status:** Production-deployed at Dr. D.Y. Patil Dnyan Prasad Global University
+</details>
+
+<details>
+<summary><strong>Unity Projects</strong> — C#</summary>
+<br>
+
+A Flappy Bird-style game and a robot/star-collection game, covering GameObjects, SpriteRenderer, TextMeshPro, the Input System, physics, UI, and audio.
+
+**Stack:** Unity, C#
 
 </details>
 
 ---
 
-## Writeups
+## Tech Stack
 
-Structured, methodology-first writeups. The goal is documentation that's useful to someone learning the underlying technique — not a walkthrough that just lists commands.
+<div align="center">
 
-| Category | Platform | Topics Covered |
-|---|---|---|
-| Web Exploitation | TryHackMe | IDOR, LFI, SSRF, SSTI, File Upload Bypass |
-| Network & Enumeration | TryHackMe | Service discovery, port scanning, banner grabbing |
-| Privilege Escalation | TryHackMe | Linux privesc vectors, SUID, sudo abuse |
-| Cryptography | TryHackMe | XOR analysis, encoding/encryption distinctions |
-| OSINT | TryHackMe | Passive recon, OSINT methodology |
-| Wargames | OverTheWire | Bandit, progressive Linux fundamentals |
-| CTF | Various | Web, Crypto, Forensics, OSINT |
+<img src="https://skillicons.dev/icons?i=unity,unreal,cpp,cs,python,blender,git,github" />
 
-All writeups live on my GitHub: [`github.com/AvaneeshYajurvedi`](https://github.com/AvaneeshYajurvedi)
-
----
-
-## Research Interests
-
-Areas I am actively studying and building projects in:
-
-- **Web Application Security** — Authentication flaws, server-side injection classes, access control logic bugs
-- **Network Security** — Protocol-level vulnerabilities, traffic analysis, enumeration methodology  
-- **Vulnerability Research** — Root cause analysis, patch diffing, responsible disclosure processes
-- **Offensive Security** — Attack chain construction, post-exploitation, privilege escalation
-- **Application Security** — Secure design principles, threat modeling, SAST/DAST tooling
-- **Open Source Security** — Supply chain risk, dependency auditing, CVE analysis
+</div>
 
 ---
 
@@ -102,11 +89,12 @@ Areas I am actively studying and building projects in:
 
 ```python
 profile = {
-    "languages":     ["Python", "C (basic)", "Bash"],
-    "platforms":     ["Linux", "Windows"],
-    "domains":       ["Web Security", "Network Analysis", "Offensive Tooling"],
-    "tools":         ["Burp Suite", "Nmap", "Wireshark", "Metasploit", "Netcat", "Hydra"],
-    "methodology":   ["PortSwigger Academy", "TryHackMe", "OverTheWire", "CTF circuits"],
+    "engines":       ["Unreal Engine 5 (C++, Blueprints)", "Unity (C#)"],
+    "tools":         ["Blender"],
+    "languages":     ["C++", "C#", "Python", "C"],
+    "platforms":     ["Windows", "Linux"],
+    "domains":       ["Puzzle/level design", "2D platformers"],
+    "shipping":      ["itch.io"],
     "certifications": ["Google Cybersecurity Professional Certificate"],
 }
 ```
@@ -122,7 +110,6 @@ profile = {
 
 <img src="https://streak-stats.demolab.com?user=AvaneeshYajurvedi&theme=tokyonight&hide_border=true&background=0D1117&stroke=00B4D8&ring=00B4D8&fire=FF6B6B&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E" height="160"/>
 
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=AvaneeshYajurvedi&bg_color=0D1117&color=00B4D8&line=00B4D8&point=FFFFFF&area=true&hide_border=true" width="95%"/>
 
 </div>
@@ -131,14 +118,16 @@ profile = {
 
 ## Connect
 
-I'm interested in connecting with security researchers, open source maintainers, CTF teams, and anyone working on serious vulnerability research. If you want to discuss a technique, collaborate on a CTF, or point me toward interesting work in the field — reach out.
+I'm interested in connecting with other game developers, indie devs, and anyone working on movement systems, level/puzzle design, or shipping small games. If you want to talk mechanics, collaborate on a jam, or point me toward interesting work — reach out.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Avaneesh_Yajurvedi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avaneesh-yajurvedi-99bb77377)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-aviiy1710-212C42?style=flat-square&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/aviiy1710)
+[![itch.io](https://img.shields.io/badge/itch.io-avaneeshyajurvedi-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white)](https://avaneeshyajurvedi.itch.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-AvaneeshYajurvedi-171515?style=flat-square&logo=github&logoColor=white)](https://github.com/AvaneeshYajurvedi)
 
 ---
 
 <div align="center">
-<sub>Security research is a long game. Playing it seriously from day one.</sub>
+<sub>Building worlds, one mechanic at a time.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,100:0D1117&height=100&section=footer" width="100%"/>
 </div>
